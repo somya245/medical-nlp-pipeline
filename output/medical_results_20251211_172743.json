@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-12-11T17:27:43.831554",
+  "processing_success": true,
+  "medical_summary": {
+    "Patient_Name": "Unknown",
+    "Symptoms": [
+      "Pain"
+    ],
+    "Diagnosis": "Requires medical evaluation",
+    "Treatment": [
+      "Physical Therapy",
+      "Medication",
+      "Surgery"
+    ],
+    "Current_Status": "Experiencing symptoms",
+    "Prognosis": [],
+    "Timeline": [],
+    "Summary": "Physician: Are you able to do the physical therapy exercises How's the pain level"
+  },
+  "sentiment_analysis": {
+    "sentiment": "REASSURED",
+    "intent": "Expressing gratitude",
+    "confidence": 1.0,
+    "scores": {
+      "ANXIOUS": 0,
+      "REASSURED": 1,
+      "PAINFUL": 0,
+      "NEUTRAL": 0
+    }
+  },
+  "soap_note": {
+    "Subjective": {
+      "Chief_Complaint": "How's the pain level",
+      "History_of_Present_Illness": "Patient history details provided in conversation",
+      "Patient_Name": "Unknown"
+    },
+    "Objective": {
+      "Physical_Exam": "Based on patient description - detailed physical exam not recorded",
+      "Observations": "Patient appears coherent and responsive based on dialogue"
+    },
+    "Assessment": {
+      "Diagnosis": "Condition requiring evaluation",
+      "Severity": "Moderate",
+      "Prognosis": "Favorable with appropriate care"
+    },
+    "Plan": {
+      "Treatment": [
+        "Physical Therapy",
+        "Medication",
+        "Surgery"
+      ],
+      "Follow_Up": "Follow up as needed based on symptom progression",
+      "Medications": [
+        "Analgesics as needed for pain management"
+      ]
+    }
+  },
+  "extracted_entities": {
+    "SYMPTOMS": [
+      "Pain"
+    ],
+    "DIAGNOSES": [],
+    "TREATMENTS": [
+      "Physical Therapy",
+      "Medication",
+      "Surgery"
+    ],
+    "PROGNOSES": [],
+    "BODY_PARTS": [
+      "Back",
+      "Knee"
+    ],
+    "DATES": [],
+    "LOCATIONS": []
+  },
+  "keywords": [
+    "Pain",
+    "Therapy",
+    "Back",
+    "Medication"
+  ],
+  "patient_text": "* Much better than last week, thank you. The swelling has gone down quite a bit. * It's manageable with the medication. About a 3 out of 10 most of the time. * Yes, I'm doing them twice a day as instructed. They're challenging but getting easier.",
+  "dialogue_turns": [
+    {
+      "speaker": "Physician",
+      "text": "* Welcome back. How are you recovering from the knee surgery?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* Much better than last week, thank you. The swelling has gone down quite a bit."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* That's good to hear. How's the pain level?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* It's manageable with the medication. About a 3 out of 10 most of the time."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* Are you able to do the physical therapy exercises?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* Yes, I'm doing them twice a day as instructed. They're challenging but getting easier."
+    }
+  ]
+}

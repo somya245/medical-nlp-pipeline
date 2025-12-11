@@ -1,0 +1,41 @@
+{
+  "SYMPTOMS": [
+    "discomfort",
+    "pain",
+    "pain",
+    "stiffness",
+    "discomfort",
+    "pain",
+    "pain"
+  ],
+  "TREATMENTS": [
+    "painkillers",
+    "physiotherapy"
+  ],
+  "DIAGNOSES": [
+    "whiplash",
+    "injury"
+  ],
+  "PROGNOSES": [],
+  "BODY_PARTS": [
+    "head",
+    "neck",
+    "back",
+    "neck",
+    "back",
+    "back",
+    "neck",
+    "back",
+    "spine",
+    "back"
+  ],
+  "DATES": [
+    "today",
+    "last September",
+    "September 1st",
+    "The first four weeks",
+    "a week",
+    "six months"
+  ],
+  "LOCATIONS": []
+}

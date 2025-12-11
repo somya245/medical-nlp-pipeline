@@ -1,0 +1,12 @@
+models:
+  ner_model: "en_core_sci_md"
+  sentiment_model: "bhadresh-savani/distilbert-base-uncased-emotion"
+  summarization_model: "facebook/bart-large-cnn"
+  
+processing:
+  min_sentence_length: 10
+  max_summary_length: 150
+  
+output:
+  format: "json"
+  include_probabilities: true

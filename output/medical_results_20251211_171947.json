@@ -1,0 +1,85 @@
+{
+  "timestamp": "2025-12-11T17:19:47.009829",
+  "processing_success": true,
+  "medical_summary": {
+    "Patient_Name": "Unknown",
+    "Symptoms": [],
+    "Diagnosis": "Requires medical evaluation",
+    "Treatment": [],
+    "Current_Status": "Under evaluation",
+    "Prognosis": [],
+    "Timeline": [],
+    "Summary": "Medical conversation analyzed. Patient discussing health concerns."
+  },
+  "sentiment_analysis": {
+    "sentiment": "NEUTRAL",
+    "intent": "General conversation",
+    "confidence": 1.0,
+    "scores": {
+      "ANXIOUS": 0,
+      "REASSURED": 0,
+      "PAINFUL": 0,
+      "NEUTRAL": 1
+    }
+  },
+  "soap_note": {
+    "Subjective": {
+      "Chief_Complaint": "Patient reports medical issue",
+      "History_of_Present_Illness": "Physician: Any changes in your health since we last met",
+      "Patient_Name": "Unknown"
+    },
+    "Objective": {
+      "Physical_Exam": "Based on patient description - detailed physical exam not recorded",
+      "Observations": "Patient appears coherent and responsive based on dialogue"
+    },
+    "Assessment": {
+      "Diagnosis": "Condition requiring evaluation",
+      "Severity": "Moderate",
+      "Prognosis": "Favorable with appropriate care"
+    },
+    "Plan": {
+      "Treatment": [
+        "Conservative management recommended"
+      ],
+      "Follow_Up": "Follow up as needed based on symptom progression",
+      "Medications": [
+        "Analgesics as needed for pain management"
+      ]
+    }
+  },
+  "extracted_entities": {
+    "SYMPTOMS": [],
+    "DIAGNOSES": [],
+    "TREATMENTS": [],
+    "PROGNOSES": [],
+    "BODY_PARTS": [],
+    "DATES": [],
+    "LOCATIONS": []
+  },
+  "keywords": [
+    "Doctor"
+  ],
+  "patient_text": "* Generally good, doctor. No major complaints. * Just the usual seasonal allergies, but otherwise everything seems normal.",
+  "dialogue_turns": [
+    {
+      "speaker": "Physician",
+      "text": "* Good to see you for your annual checkup. How have you been feeling overall?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* Generally good, doctor. No major complaints."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* Any changes in your health since we last met?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* Just the usual seasonal allergies, but otherwise everything seems normal."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* That's great. Let's go through the routine checks then."
+    }
+  ]
+}

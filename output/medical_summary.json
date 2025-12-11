@@ -1,0 +1,31 @@
+{
+  "Patient_Name": "Janet Jones",
+  "Symptoms": [
+    "discomfort",
+    "pain",
+    "pain",
+    "stiffness",
+    "discomfort",
+    "pain",
+    "pain"
+  ],
+  "Diagnosis": [
+    "whiplash",
+    "injury"
+  ],
+  "Treatment": [
+    "painkillers",
+    "physiotherapy"
+  ],
+  "Current_Status": "Condition status not specified",
+  "Prognosis": [],
+  "Timeline": [
+    "today",
+    "last September",
+    "September 1st",
+    "The first four weeks",
+    "a week",
+    "six months"
+  ],
+  "Summary": "The patient was in a car accident last September. She had to go through ten sessions of physiotherapy to help with the stiffness and discomfort. There are no signs of long-term damage or degeneration."
+}

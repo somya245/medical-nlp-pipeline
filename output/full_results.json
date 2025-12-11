@@ -1,0 +1,267 @@
+{
+  "medical_summary": {
+    "Patient_Name": "Janet Jones",
+    "Symptoms": [
+      "discomfort",
+      "pain",
+      "pain",
+      "stiffness",
+      "discomfort",
+      "pain",
+      "pain"
+    ],
+    "Diagnosis": [
+      "whiplash",
+      "injury"
+    ],
+    "Treatment": [
+      "painkillers",
+      "physiotherapy"
+    ],
+    "Current_Status": "Condition status not specified",
+    "Prognosis": [],
+    "Timeline": [
+      "today",
+      "last September",
+      "September 1st",
+      "The first four weeks",
+      "a week",
+      "six months"
+    ],
+    "Summary": "The patient was in a car accident last September. She had to go through ten sessions of physiotherapy to help with the stiffness and discomfort. There are no signs of long-term damage or degeneration."
+  },
+  "sentiment_analysis": {
+    "sentiment": "ANXIOUS",
+    "sentiment_scores": {
+      "ANXIOUS": 0.9730748569165726,
+      "NEUTRAL": 0.024676428517442422,
+      "REASSURED": 0.0022487145659850394
+    },
+    "intent": "Reporting symptoms",
+    "confidence": 0.9702162146568298,
+    "raw_emotions": [
+      {
+        "label": "sadness",
+        "score": 0.0014065139694139361
+      },
+      {
+        "label": "joy",
+        "score": 0.001956106396391988
+      },
+      {
+        "label": "love",
+        "score": 0.00029260822338983417
+      },
+      {
+        "label": "anger",
+        "score": 0.0014521515695378184
+      },
+      {
+        "label": "fear",
+        "score": 0.9702162146568298
+      },
+      {
+        "label": "surprise",
+        "score": 0.024676429107785225
+      }
+    ]
+  },
+  "soap_note": {
+    "Subjective": {
+      "Chief_Complaint": "I\u2019m doing better, but I still have some discomfort now and then",
+      "History_of_Present_Illness": "Good morning, doctor. I\u2019m doing better, but I still have some discomfort now and then.\n    \n    Physician: I understand you were in a car accident last September. Can you walk me through what happened?\n    \n    Patient: Yes, it was on September 1st, around 12:30 in the afternoon. I was driving from ...",
+      "Patient_Reported_Symptoms": [
+        "could feel pain in my",
+        "and back pain were really",
+        "have some discomfort now and",
+        "still experiencing pain now?* **patient:**",
+        "with the stiffness and discomfort.*"
+      ]
+    },
+    "Objective": {
+      "Physical_Exam": "No detailed exam recorded",
+      "Observations": "** *Good morning, Ms. Jones. How are you feeling today?*\n    \n    **Patient:** *Good morning, doctor. I\u2019m doing better, but I still have some discomfort now and then.*\n    \n    **Physician:** *I understand you were in a car accident last September. Can you walk me through what happened?*\n    \n    **Patient:** *Yes, it was on September 1st, around 12:30 in the afternoon. I was driving from Cheadle Hulme to Manchester when I had to stop in traffic. Out of nowhere, another car hit me from behind, which pushed my car into the one in front.*\n    \n    **Physician:** *That sounds like a strong impact. Were you wearing your seatbelt?*\n    \n    **Patient:** *Yes, I always do.*\n    \n    **Physician:** *What did you feel immediately after the accident?*\n    \n    **Patient:** *At first, I was just shocked. But then I realized I had hit my head on the steering wheel, and I could feel pain in my neck and back almost right away.*\n    \n    **Physician:** *Did you seek medical attention at that time?*\n    \n    **Patient:** *Yes, I went to Moss Bank Accident and Emergency. They checked me over and said it was a whiplash injury, but they didn\u2019t do any X-rays. They just gave me some advice and sent me home.*\n    \n    **Physician:** *How did things progress after that?*\n    \n    **Patient:** *The first four weeks were rough. My neck and back pain were really bad\u2014I had trouble sleeping and had to take painkillers regularly. It started improving after that, but I had to go through ten sessions of physiotherapy to help with the stiffness and discomfort.*\n    \n    **Physician:** *That makes sense. Are you still experiencing pain now?*\n    \n    **Patient:** *It\u2019s not constant, but I do get occasional backaches. It\u2019s nothing like before, though.*\n    \n    **Physician:** *That\u2019s good to hear. Have you noticed any other effects, like anxiety while driving or difficulty concentrating?*\n    \n    **Patient:** *No, nothing like that. I don\u2019t feel nervous driving, and I haven\u2019t had any emotional issues from the accident.*\n    \n    **Physician:** *And how has this impacted your daily life? Work, hobbies, anything like that?*\n    \n    **Patient:** *I had to take a week off work, but after that, I was back to my usual routine. It hasn\u2019t really stopped me from doing anything.*\n    \n    **Physician:** *That\u2019s encouraging. Let\u2019s go ahead and do a physical examination to check your mobility and any lingering pain.*\n    \n    [**Physical Examination Conducted**]\n    \n    **Physician:** *Everything looks good. Your neck and back have a full range of movement, and there\u2019s no tenderness or signs of lasting damage. Your muscles and spine seem to be in good condition.*\n    \n    **Patient:** *That\u2019s a relief!*\n    \n    **Physician:** *Yes, your recovery so far has been quite positive. Given your progress, I\u2019d expect you to make a full recovery within six months of the accident. There are no signs of long-term damage or degeneration.*\n    \n    **Patient:** *That\u2019s great to hear. So, I don\u2019t need to worry about this affecting me in the future?*\n    \n    **Physician:** *That\u2019s right. I don\u2019t foresee any long-term impact on your work or daily life. If anything changes or you experience worsening symptoms, you can always come back for a follow-up. But at this point, you\u2019re on track for a full recovery.*\n    \n    **Patient:** *Thank you, doctor. I appreciate it.*\n    \n    **Physician:** *You\u2019re very welcome, Ms. Jones. Take care, and don\u2019t hesitate to reach out if you need anything.*",
+      "Vital_Signs": "Not recorded"
+    },
+    "Assessment": {
+      "Diagnosis": "whiplash",
+      "Severity": "Mild",
+      "Prognosis": "Unknown",
+      "Differential_Diagnosis": [
+        "Musculoskeletal strain",
+        "Soft tissue injury"
+      ]
+    },
+    "Plan": {
+      "Treatment": [
+        "painkillers",
+        "physiotherapy"
+      ],
+      "Follow_Up": "Return if symptoms worsen or persist beyond 6 months",
+      "Medications": [
+        "Analgesics as needed for pain"
+      ],
+      "Referrals": []
+    }
+  },
+  "extracted_entities": {
+    "SYMPTOMS": [
+      "discomfort",
+      "pain",
+      "pain",
+      "stiffness",
+      "discomfort",
+      "pain",
+      "pain"
+    ],
+    "TREATMENTS": [
+      "painkillers",
+      "physiotherapy"
+    ],
+    "DIAGNOSES": [
+      "whiplash",
+      "injury"
+    ],
+    "PROGNOSES": [],
+    "BODY_PARTS": [
+      "head",
+      "neck",
+      "back",
+      "neck",
+      "back",
+      "back",
+      "neck",
+      "back",
+      "spine",
+      "back"
+    ],
+    "DATES": [
+      "today",
+      "last September",
+      "September 1st",
+      "The first four weeks",
+      "a week",
+      "six months"
+    ],
+    "LOCATIONS": []
+  },
+  "keywords": [
+    "*",
+    "Physician",
+    ":*",
+    "morning",
+    "Ms.",
+    "Jones",
+    "today",
+    "Patient",
+    "doctor",
+    "discomfort"
+  ],
+  "patient_text": "* *Good morning, doctor. I\u2019m doing better, but I still have some discomfort now and then. * *Yes, it was on September 1st, around 12:30 in the afternoon. I was driving from Cheadle Hulme to Manchester when I had to stop in traffic. Out of nowhere, another car hit me from behind, which pushed my car into the one in front. * *Yes, I always do. * *At first, I was just shocked. But then I realized I had hit my head on the steering wheel, and I could feel pain in my neck and back almost right away. * *Yes, I went to Moss Bank Accident and Emergency. They checked me over and said it was a whiplash injury, but they didn\u2019t do any X-rays. They just gave me some advice and sent me home. * *The first four weeks were rough. My neck and back pain were really bad\u2014I had trouble sleeping and had to take painkillers regularly. It started improving after that, but I had to go through ten sessions of physiotherapy to help with the stiffness and discomfort. * *It\u2019s not constant, but I do get occasional backaches. It\u2019s nothing like before, though. * *No, nothing like that. I don\u2019t feel nervous driving, and I haven\u2019t had any emotional issues from the accident. * *I had to take a week off work, but after that, I was back to my usual routine. It hasn\u2019t really stopped me from doing anything. * *That\u2019s a relief! * *That\u2019s great to hear. So, I don\u2019t need to worry about this affecting me in the future? * *Thank you, doctor. I appreciate it.",
+  "dialogue_turns": [
+    {
+      "speaker": "Physician",
+      "text": "* *Good morning, Ms. Jones. How are you feeling today?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *Good morning, doctor. I\u2019m doing better, but I still have some discomfort now and then."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *I understand you were in a car accident last September. Can you walk me through what happened?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *Yes, it was on September 1st, around 12:30 in the afternoon. I was driving from Cheadle Hulme to Manchester when I had to stop in traffic. Out of nowhere, another car hit me from behind, which pushed my car into the one in front."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *That sounds like a strong impact. Were you wearing your seatbelt?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *Yes, I always do."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *What did you feel immediately after the accident?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *At first, I was just shocked. But then I realized I had hit my head on the steering wheel, and I could feel pain in my neck and back almost right away."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *Did you seek medical attention at that time?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *Yes, I went to Moss Bank Accident and Emergency. They checked me over and said it was a whiplash injury, but they didn\u2019t do any X-rays. They just gave me some advice and sent me home."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *How did things progress after that?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *The first four weeks were rough. My neck and back pain were really bad\u2014I had trouble sleeping and had to take painkillers regularly. It started improving after that, but I had to go through ten sessions of physiotherapy to help with the stiffness and discomfort."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *That makes sense. Are you still experiencing pain now?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *It\u2019s not constant, but I do get occasional backaches. It\u2019s nothing like before, though."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *That\u2019s good to hear. Have you noticed any other effects, like anxiety while driving or difficulty concentrating?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *No, nothing like that. I don\u2019t feel nervous driving, and I haven\u2019t had any emotional issues from the accident."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *And how has this impacted your daily life? Work, hobbies, anything like that?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *I had to take a week off work, but after that, I was back to my usual routine. It hasn\u2019t really stopped me from doing anything."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *That\u2019s encouraging. Let\u2019s go ahead and do a physical examination to check your mobility and any lingering pain. [**Physical Examination Conducted**]"
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *Everything looks good. Your neck and back have a full range of movement, and there\u2019s no tenderness or signs of lasting damage. Your muscles and spine seem to be in good condition."
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *That\u2019s a relief!"
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *Yes, your recovery so far has been quite positive. Given your progress, I\u2019d expect you to make a full recovery within six months of the accident. There are no signs of long-term damage or degeneration."
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *That\u2019s great to hear. So, I don\u2019t need to worry about this affecting me in the future?"
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *That\u2019s right. I don\u2019t foresee any long-term impact on your work or daily life. If anything changes or you experience worsening symptoms, you can always come back for a follow-up. But at this point, you\u2019re on track for a full recovery."
+    },
+    {
+      "speaker": "Patient",
+      "text": "* *Thank you, doctor. I appreciate it."
+    },
+    {
+      "speaker": "Physician",
+      "text": "* *You\u2019re very welcome, Ms. Jones. Take care, and don\u2019t hesitate to reach out if you need anything."
+    }
+  ]
+}

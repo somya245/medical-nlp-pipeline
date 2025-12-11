@@ -1,0 +1,36 @@
+{
+  "sentiment": "ANXIOUS",
+  "sentiment_scores": {
+    "ANXIOUS": 0.9730748569165726,
+    "NEUTRAL": 0.024676428517442422,
+    "REASSURED": 0.0022487145659850394
+  },
+  "intent": "Reporting symptoms",
+  "confidence": 0.9702162146568298,
+  "raw_emotions": [
+    {
+      "label": "sadness",
+      "score": 0.0014065139694139361
+    },
+    {
+      "label": "joy",
+      "score": 0.001956106396391988
+    },
+    {
+      "label": "love",
+      "score": 0.00029260822338983417
+    },
+    {
+      "label": "anger",
+      "score": 0.0014521515695378184
+    },
+    {
+      "label": "fear",
+      "score": 0.9702162146568298
+    },
+    {
+      "label": "surprise",
+      "score": 0.024676429107785225
+    }
+  ]
+}
