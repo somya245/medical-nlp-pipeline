@@ -195,10 +195,3 @@ MIT License
 
 ---
 
-*If you want, I can:*
-
-* tailor this README to include more precise usage examples extracted from `app.py` and `main.py`,
-* generate a `.gitignore` tuned for Python and VSCode,
-* add a `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` template.
-
-Tell me which of those you want next and I will add them.
